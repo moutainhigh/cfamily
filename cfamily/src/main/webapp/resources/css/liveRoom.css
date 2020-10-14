@@ -1,0 +1,45 @@
+*{ margin: 0; padding: 0;}
+.zhibo_gy{background-color: #fff;box-shadow: #E5E5E5 0px 0px 30px 5px; border-radius: 10px;padding: 10px;}
+.zhibi_div{ width: 1200px; padding: 0 30px;padding-bottom: 40px; margin: auto; height: auto;; overflow: hidden;} 
+.zhibo_top img.img_top{ position: absolute; width: 282px; height: 205px; top: 10px; left: 10px;}
+.zhibo_top p{ font-size: 16px; height: 25px;overflow: hidden; line-height: 25px;color: #999; width: 550px;}
+.zhibo_top p span{ float: right; width: 420px; text-align: left; font-size: 14px; color: #222;}
+.zhibo_top p.zhibo_title{ font-size: 20px; font-weight: bold;color: #222; margin-bottom: 15px; margin-top: 5px;}
+.zhibo_top{ width: 868px; height: 205px; margin-top: 20px; position: relative; padding-left: 322px;}
+.zhibo_left{ width: 180px; padding: 30px 50px; margin-top: 15px; float: left;  height: auto; overflow: hidden; }
+.zhibo_left h1{ font-size: 20px;margin-bottom: 20px;}
+.zhibo_left p{ font-size: 14px; height: 25px; overflow: hidden; color: #999; line-height: 25px;}
+.zhibo_left p.ph_p1{ font-size: 18px; color: #222; margin-top: 20px; margin-bottom: 10px;}
+.zhibo_left p span{ float: right;}
+.zhibo_center{ width: 1200px; height: auto; overflow: hidden;}
+.zhibo_right{ width: 895px; float: right;}
+.zhibo_right1{ margin-top: 15px; padding: 30px; height: auto; overflow: hidden;}
+.zhibo_right1 h1{ font-size: 20px;}
+.zhibo_right1 .zhibo_kz{ height: auto; overflow: hidden; margin-top: 30px;}
+.zhibo_right1 .zhibo_kz div{ width: 150px; float: left;}
+.zhibo_right1 .zhibo_kz div.zhibo_kz1{ width: 230px;}
+.zhibo_right1 .zhibo_kz div p{ text-align: left; line-height: 30px;}
+.zhibo_right1 .zhibo_kz div p:first-child{ font-size: 14px; color: #999;}
+.zhibo_right1 .zhibo_anniu{ height: auto; overflow: hidden; margin-top: 30px; margin-left: -10px;}
+.zhibo_right1 .zhibo_anniu span{ width: 80px; height: 35px; display: block; cursor: pointer; margin-left: 10px; float: left; text-align: center; line-height: 35px; font-size: 14px; background: #007AFF; color: #FFF; border-radius: 5px;}
+.zhibo_right2{ margin-top: 15px;padding: 30px; }
+.zhibo_right2 .zhibo_anniu{ height: auto; overflow: hidden; margin-top: 15px; margin-left: -10px;}
+.zhibo_right2 .zhibo_anniu span{width: 100px; height: 30px; display: block; margin-left: 10px; float: left; text-align: center; line-height: 30px; font-size: 14px; color: #222; border:1px solid #eee; border-radius: 5px;}
+.zhibo_right2 .zhibo_anniu span:last-child{ float: right; height: 30px; display: block; cursor: pointer; margin-left: 10px; text-align: center; line-height: 30px; font-size: 14px; background: #007AFF; color: #FFF; border-radius: 5px;}
+
+.zhibo_right2 .zhibo_anniu1{ height: auto; overflow: hidden; margin-top: 15px; margin-left: -10px;}
+.zhibo_right2 .zhibo_anniu1 span{width: 100px; height: 30px; display: block; margin-left: 10px; float: left; text-align: center; line-height: 30px; font-size: 14px; color: #222; border:1px solid #eee; border-radius: 5px;}
+.zhibo_right2 .zhibo_anniu1 span:last-child{ float: right; height: 30px; display: block; cursor: pointer; margin-left: 10px; text-align: center; line-height: 30px; font-size: 14px; background: #007AFF; color: #FFF; border-radius: 5px;}
+
+.zhibo_right2 h1{ font-size: 20px;}
+.zhibo_right2 .zhibo_biao { margin-top: 15px; height: auto;overflow: hidden;}
+.zhibo_right2 .zhibo_biao table{ font-size: 20px;border:none;border-collapse: collapse; }
+.zhibo_biao table th{ height: 40px; background-color: #EEEEEE; font-size: 16px; padding: 0 10px;}
+.zhibo_biao table tr td{padding: 10px; font-size: 16px; text-align: center;}
+.zhibo_biao table tr td span{ font-size: 14px; color: #999;}
+.zhibo_biao table tr .td_img{ text-align: left;}
+.zhibo_biao table tr td img{ width: 80px; height: 80px; float: left; margin-right: 5px;}
+.page_zhibo{height: 30px; overflow: hidden; padding: 20px; padding-left: 0;}
+.page_zhibo span{ width:30px; margin-left: 10px; height: 25px; display: block; cursor: pointer; float: left; line-height: 25px; text-align: center; border-radius: 5px; border:1px solid #eee }
+.page_zhibo .shangye{ width: 70px;}
+.page_zhibo  .page_click{ background-color: #007AFF; color: #fff;} 

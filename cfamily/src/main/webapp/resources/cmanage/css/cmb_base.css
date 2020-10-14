@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+/*啊啊*/
+.cmb_cmanage_page	.form-horizontal  .control-group {
+	float: left;
+	width: 49%;
+	clear: none;
+	margin-bottom: 10px;
+}
+
+.cmb_cmanage_page_title
+{
+	
+	height:25px;
+	margin-bottom:20px;
+	border-bottom:solid 1px #006475;
+	color:#fff;
+	
+}
+
+.cmb_cmanage_page_title span
+{
+	background-color:#006475;
+	padding:5px 10px 6px 10px;
+	text-align:center;
+}

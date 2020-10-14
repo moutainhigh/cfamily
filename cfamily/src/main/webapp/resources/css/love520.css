@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* base set */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0;}body,input,textarea,select,button,table{font-size:.75em;line-height:1.25em;}body{min-width:320px;/*max-width:640px;*/ margin:0 auto;font-family:'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;color:#333;-webkit-text-size-adjust:none;background: #FFEEF4;}
+img,fieldset{display:block;border:0;}ul,ol{list-style:none;}ins{ text-decoration:none;}em,address{font-style:normal;}table{border-collapse:collapse;}
+article, aside,details,figcaption, figure,footer,header,hgroup,menu,nav,section {display: block;}a{color:#333;text-decoration:none;}
+
+header,footer{width:100%; overflow:hidden;}
+.wrap{width:100%; margin:0 auto; padding:0 0 6.05em;  overflow:hidden}
+.wbox{border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; background:#fff; overflow:hidden}
+input[type=text],input[type=password],input[type=button]{appearance: none; -webkit-appearance: none; outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-touch-callout:none;}
+.fl{ float:left}
+.fr{ float:right}
+/*  */
+.con{max-width:640px;min-width:320px;margin:0 auto;}
+.con ul li a{display:block;}
+img{max-height:290px;width:100%;}
+.c1{margin-top:1.4em;}
+.car_footer{height:3em;background:#B6062A;font-size:1.3em;color:#fff;line-height:3em;text-align:center;margin-top:1.4em;}
+.car_claim{background:url(/cfamily/resources/images/love520/btn_bj.png) no-repeat;height:90px;background-size:100% 100%;}
+.car_claim dl dt {padding-top:7px;}
+.car_claim dl dt img{width:171px;height: 77px;}
+.car_claim dl dd{margin-left: 15px;}
+.aa1{height:129px;width:150px;}
+.car_input{border:solid 1px #DAD201;border-radius:5px; text-indent: 10px;width:127px;height: 22px;line-height:22px;display: inline;  font-size: 16px;}
+.car_btn{background:url(/cfamily/resources/images/love520/car_btn.png) no-repeat;background-size: 100%;width: 90px;height:26px;border: none;margin-left: 15px;}
+.dis-box{width:100%;display:-webkit-box;display:-moz-box;display:-ms-box;display:box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}.dis-flex{width:100%;display:-webkit-flex;display:flex}
+.db{display: block;padding: 0px;}
+.pt5{padding-top:7px;}
+.lh18{line-height: 28px;font-size:16px;}
+.con ul li{position:relative;}
+.con ul li i{background:url(/cfamily/resources/images/love520/gaichuo.png) no-repeat;height:90px;display:block;position:absolute;right:26%;top:50%;background-size:100%;width:110px;margin-right:-55px;margin-top:-45px;}

@@ -1,0 +1,16 @@
+
+.share_top html{font-size: 62.5%; }
+
+.share_top{width:100%; padding:1em 0; overflow: hidden; }
+.share_top .txt,.share_top .btns{padding:.3em 3.125% .3em; overflow: hidden;}
+.share_top .txt{color:#666; font-size: 1.3em; line-height: 1.5em; padding:0 0 .8em;position: relative; overflow: hidden;}
+.share_top .txt em{color:#c41c40;}
+.share_top .txt div{position:absolute; left:3.125%; top:0;width:3.2em; height:3.2em; margin:0 .5em 0 0;}
+.share_top .txt div img{width:100%; height:auto;}
+.share_top .txt span{display:block;padding:.1em 3.125% 0 4.6em;  box-sizing:border-box; -webkit-box-sizing:border-box; overflow: hidden;}
+.share_top .btns span{ float: left; width:50%; overflow: hidden;}
+.share_top .btns span a{display:block;border-radius:4px;-webkit-border-radius:4px; text-align:center; height:2.3em; line-height: 2.3em; font-size: 1.26em; overflow: hidden;}
+.share_top .lspan a{border:1px solid #c41c40; margin:0 .3em 0 0; color:#c41c40;}
+.share_top .rspan a{border:1px solid #c41c40; background: #c41c40; color:#fff;margin:0 0 0 .3em;}
+
+

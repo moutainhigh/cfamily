@@ -1,0 +1,85 @@
+
+/*底部导航 2017-05-05*/
+.footer-menu-wrap{
+    background: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+    border-top: 1px solid #f3f3f3;
+    box-sizing: border-box;
+}
+.footer-menu li {
+    float: left;
+    width: 20%;
+    height: .46rem;
+    text-align: center;
+    padding: .03rem 0;
+    position: relative;
+    overflow: hidden;
+}
+.footer-menu li .img{
+    display: block;
+    position: relative;
+    margin: -.21rem auto 0;
+    width: .57rem;
+    /*height: .54rem;*/
+}
+.footer-menu li em {
+ /*   font-size: 0.1rem;
+    width:0.35rem;
+	height:0.35rem;
+    box-sizing: border-box;
+    background: #f37121;
+    color: #fff;
+    position: absolute;
+    right: .07rem;
+    top: .2rem;
+    border-radius:0.1rem;
+    text-align: center;*/
+	min-width: 0.16rem;
+    height: 0.16rem;
+    padding: 0 0.05rem;
+    box-sizing: border-box;
+    background: #f37121;
+    color: #fff;
+    line-height: 0.16rem;
+    text-align: center;
+    margin-left: 0.03rem;
+    border-radius: 0.08rem;
+    font-family: Arial;
+    font-size: 0.09rem;
+    position: absolute;
+    right: .07rem;
+    top: .2rem;
+	
+}
+.footer-menu li img {
+    display: block;
+    width: 100%;
+}
+.footer-menu li.middle{
+    overflow: auto;
+}
+.footer-menu li.middle img{display:block; margin:0 auto; width:.57rem; position: absolute; left: 50%; margin-left: -.285rem; bottom: 0; /*height: .38rem;*/ }
+.footer-menu li .txt{display:block; font-size:.12rem; line-height: .12rem; color:#222; }
+.footer-menu li.curr .txt{
+    color: #f37121;
+}
+/*底部导航 end*/
+
+/**/
+.footer-menu li .img_AD {
+    display: block;
+    position: relative;
+    margin: -.17rem auto 0;
+    width: .57rem;
+    /* height: .54rem; */
+}
+.footer-menu li img_AD {
+    display: block;
+    width: 100%;
+}
+
+

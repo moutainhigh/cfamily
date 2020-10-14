@@ -1,0 +1,260 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	img{
+		width: 100%;
+		display: block;
+	}
+	.yilan-564 .ping-big-div{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+	
+	.yilan-564 .ping-564{
+		position: relative;
+		width: 96%;
+		margin: auto;
+		height: auto;
+		overflow: hidden;
+		border-radius: 8px;
+		margin-top: 10px;
+		background-color: #fff;
+	}
+	
+	.yilan-564 .ping-564-div .ping-564:first-child{
+		margin-top: 0;
+		border-radius:0 0 8px 8px;
+	}
+	
+	.yilan-564 .ping-564-div .ping-564:last-child{
+		border-radius:8px 8px 0 0;
+	}
+	.yilan-564 .ping-564 .spmb-img-561 {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		position: relative;
+	}
+	
+
+	.yilan-564 .spmb-xx-561 {
+		padding: 7px 10px;
+		height: auto;
+		overflow: hidden;
+	}
+	
+	.yilan-564 .spmb-xx-561 p {
+		font-size: 14px;
+	}
+	
+	.yilan-564 .spmb-xx-561 .spmb-n-561 {
+		font-size: 16px;
+		margin-bottom: 3px;
+		height: 25px;
+		line-height: 25px;
+		overflow: hidden;
+		 overflow: hidden;/*超出部分隐藏*/
+        white-space: nowrap;/*不换行*/
+       text-overflow:ellipsis;/*超出部分文字以...显示*/
+	}
+	.yilan-564 .spmb-xx-561 .spmb-n-561 span{
+		color: #97650E;
+	}
+	
+	.yilan-564 .spmb-zk-561 {
+		width: 55px;
+		height: 48px;
+		margin-right: 14px;
+		float: left;
+		position: relative;
+	}
+	
+	
+	.yilan-564 .spmb-price-561 p {
+		line-height: 24px;
+		height: 24px;
+		overflow: hidden;
+		font-size: 16px;
+		color: #333;
+		
+	}
+	
+	.yilan-564 .spmb-price-561 {
+		float: left;
+		height: auto;
+		overflow: hidden;
+	}
+	
+	.yilan-564 .spmb-price-561 i {
+		display: inline-block;
+		width: 50px;
+		font-size: 14px;
+		font-style: normal;
+	}
+	
+.yilan-564 .zhe-sp-561 {
+	position: absolute;
+	width: 100%;
+	font-size: 12px;
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	top: 9px;
+	left: 0;
+	text-align: center;
+}
+
+.yilan-564 .zhe-sp-561 span {
+	font-size: 20px;
+}
+	
+	
+	
+.yilan-564 .zhe-sp-561-1 {
+	position: absolute;
+		width: 100%;
+		font-size: 12px;
+		color: #fff;
+		line-height: 18px;
+		top: 5px;
+		left: 0;
+		text-align: center;
+}
+
+.yilan-564 .zhe-sp-561-1 span {
+		font-size: 16px;
+		font-weight: bold;
+	}
+	
+.yilan-564 .zhe-sp-561-1 b{
+			font-size: 14px;
+			font-weight: normal;
+		}
+		
+		
+.yilan-564 .zhe-sp-561-2 {
+	position: absolute;
+		width: 100%;
+		font-size: 12px;
+		color: #fff;
+		line-height: 18px;
+		top: 5px;
+		left: 0;
+		text-align: center;
+}
+
+.yilan-564 .zhe-sp-561-2 span {
+		font-size: 12px;
+	}
+	
+.yilan-564 .zhe-sp-561-2 b{
+			font-size: 16px;
+
+		}
+
+	
+	.yilan-564 .spmb-price-561 p .fuhao-q {
+		font-size: 12px;
+	}
+	
+	.yilan-564 .spmb-price-561 p .sp-sjj-561 {
+		color: #ff6100;
+	}
+	
+	.yilan-564 .ypjian{
+		color: #999999;
+		font-size: 14px;
+		position: absolute;
+		right: 10px;
+		bottom: 10px;
+	}
+  .yilan-564 .yilan-564-t{
+  	  width: 96%;
+  	  margin: auto;
+  	  text-align: center;
+  	  font-size: 18px;
+      line-height:40px;
+      background-color: #fff;
+      border-radius: 8px 8px 0 0;
+  }
+  
+  .chakangd-564{
+  	width: 96%;
+  	margin-left: 2%;
+  	background-color: #fff;
+  	height: 40px;
+  	padding: 20px 0;
+  	border-radius: 0 0 8px 8px;
+ }
+   .chakangd-564 span{
+   	width: 60%;
+   	height: 40px;
+   	margin-left: 20%;
+   	border:1px solid #666;
+   	color: #666;
+   	border-radius: 20px;
+   	text-align: center;
+   	display: block;
+   	line-height: 40px;
+   	font-size:16px;
+   }
+.yilan-564 a{
+	color:#222;
+}
+/*562左上1栏*/
+.si_left-div{
+	position: absolute!important;
+	top: 4%!important;
+	left: 4%!important;
+	z-index: 10!important;
+}
+.si_left-div .si_left-top_1{
+	width: 32px!important;
+	height: 32px!important;
+	position: absolute;
+    top: 0;
+    left: 0;	
+      border-radius:0!important;
+}
+.si_left-div .si_left-top_1:nth-child(1){
+    left: 0px;	
+}
+.si_left-div .si_left-top_1:nth-child(2){
+	margin-left: 0!important;
+	left: 30px;	
+}
+.si_left-div .si_left-top_1:nth-child(3){
+	margin-left: 0!important;
+	left: 60px;	
+}
+.si_left-div .si_left-top_1:nth-child(4){
+	margin-left: 0!important;
+	left: 90px;	
+}
+
+/*562通栏*/
+.tonglan-562{ width: 100%!important; position: absolute!important; left: 0!important;bottom: 0!important; height: auto!important; border-radius: 0!important;z-index: 99;}
+
+  .tuan_bq {
+    width: 40px;
+    height: 23px;
+    color: #fff;
+    font-size: 12px;
+    background: url(https://image-mall.huijiayou.cn/hjyshop/img/num-t.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 27px;
+}
+
+    .tuan_bq span {
+        color: #fff!important;
+        font-size: 15px!important;
+        display:inline-block!important;
+    }
+    .yilan-564{
+    	padding-top:10px
+    }

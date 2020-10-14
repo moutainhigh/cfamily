@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+
+
+
+
+
+.csb_need
+{
+	color:#ff0000;
+}
+
+.csb_cshop_addproduct_item
+{
+	border:solid 1px #ebebeb;
+	padding:10px 10px 20px 10px;
+	background-color:#fbfbfb;
+	margin-bottom:20px;
+}
+.csb_cshop_addproduct_item ul li
+{
+	height:40px;
+}
+
+
+
+
+.csb_cshop_addproduct_title
+{
+	color:#008A17;
+	padding:5px;
+	margin:10px;
+	font-weight:bold;
+}
+
+.csb_cshop_addproduct_prop
+{
+	
+	
+}
+.csb_cshop_addproduct_prop_title
+{
+	padding-top:10px;
+}
+
+.csb_cshop_addproduct_prop ul
+{
+	clear:both;
+	margin-top:10px;
+}
+
+
+.csb_cshop_addproduct_prop ul li
+{
+	list-style-type:none;
+	float:Left;
+	margin-right:20px;
+}
+
+.csb_cshop_addproduct_colors,.csb_cshop_addproduct_plist
+{
+	
+}
+
+.csb_cshop_accountInfo_prop 
+{
+	border:1px solid #e1e1e1;
+	text-align:left;
+	width:100%;
+	margin:20px auto auto
+}
+
+.csb_cshop_accountInfo_prop dl
+{
+	padding-bottom:0px
+}
+
+.csb_cshop_accountInfo_prop dl dd
+{
+	width:100%;
+	margin:10px auto 0;
+	line-height:20px
+}
+
+.csb_cshop_accountInfo_prop dl dt
+{
+	background:#f4f4f9;
+	font-weight:bold;
+	color:#51944d;
+	padding:8px
+}
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		
+		
+		<!-- 设置freeMarker的配置文件路径 -->
+	<bean id="freemarkerConfiguration"
+		class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+		<property name="location" value="/WEB-INF/spring/appServlet/freemarker-config.properties" />
+	</bean>
+
+
+
+
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<bean id="freemarkerConfig"
+		class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+		<!--property name="freemarkerSettings" ref="freemarkerConfiguration"/ -->
+		
+		<property name="freemarkerSettings" ref="freemarkerConfiguration"/>
+		
+		<property name="templateLoaderPath">
+			<value>/WEB-INF/ftltemplete/</value>
+		</property>
+		
+	</bean>
+
+	
+		
+		
+</beans>

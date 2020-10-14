@@ -1,0 +1,247 @@
+.header_pt{height: 0.45rem;background-color:#fff;position:relative;line-height: 0.45rem;border-bottom:1px solid #e6e6e6;}
+.header_pt h1{font-size: 0.18rem;text-align:center;font-weight:400;}
+.header_pt a{display:block;width: 0.12rem;position:absolute;top: 0.13rem;left:3%;}
+.guize_nr{ padding:0.4rem 3%;}
+.guize_nr h1{ font-size:0.3rem; font-weight:500; margin:0.15rem 0; color:#222;}
+.guize_nr p{ line-height:0.4rem; padding-left:0.6rem; margin-top:0.05rem;color:#333;}
+
+.ping_list{ padding:0 3%; height:auto; overflow:hidden;}
+.ping_item{height:auto;position:relative;overflow:hidden;padding: 0.1rem 0.1rem;background-color:#fff;border-radius: 10px;}
+.ping_item .ping_img{width:40%;float:left;border-radius:5px;}
+.ping_item .ping_img img{border-radius:7px;height: 1.48rem;}
+.ping_content{float:left;width:58%;padding-left:2%;}
+.ping_content .ping_name{color:#222222;font-size: 0.14rem;line-height: 0.2rem;height: 0.4rem;overflow:hidden;}
+.ping_content .ping_name span{display:inline-block;width: 0.3rem;height: 0.18rem;background-color:#ff551a;color:#fff;font-size: 0.12rem;line-height: 0.18rem;text-align:center;border-radius:3px;margin-right: 0.03rem;vertical-align:top;}
+.ping_content .ping_info{color:#999999;font-size: 0.12rem;line-height: 0.2rem;height: 0.2rem;overflow:hidden;}
+.ping_content .ping_ren{height: 0.2rem;margin: 0.01rem 0;overflow:hidden;}
+.ping_content .ping_ren span{padding: 0 0.1rem;height: 0.2rem;display:inline-block;text-align:center;line-height: 0.2rem;background-color:#fff1e8;color:#ff6100;font-size: 0.12rem;border-radius: 0.1rem;float:  left;}
+.ping_content .ping_price{font-size: 0.18rem;margin-top: 0.25rem;font-weight:600;color:#ff7a34;}
+.ping_content .ping_price span{font-size: 0.14rem;font-weight:100;}
+.ping_content .ping_price_x{font-size: 0.12rem;text-decoration:line-through;color:#999999;}
+.ping_start{width: 0.75rem;display:block;position:absolute;right: 0.1rem;bottom: 0.15rem;height:20%;}
+.ping_item .ping_end{width:38%;position:absolute;top:0.1rem;left:0.1rem;}
+.ping_item .ping_end img{ width:70%; margin-left: 15%; margin-top:18%}
+
+
+
+.ping_fq{ width:100%; height:auto; overflow:hidden; background:url(../img/pingtuan/imgo_07.png) no-repeat; background-size:100% auto;}
+.xx_ping{ line-height:40px; height:40px; overflow:hidden; font-size:0.18rem; color:#fff; padding:0.13rem 3%}
+.xx_ping img{ width:40px; height:40px; border-radius:20px; float:left; margin-right:10px;}
+.xx_spxq{ width:90%; margin:auto; padding:0.1rem 2%; background-color:#fff; border-radius:10px; height:auto; overflow:hidden;box-shadow: #f4f4f4 0px 0px 1px 1px ; margin-bottom:0.2rem}
+.xx_spxq_img{ width:43%; margin-right:2%; float:left;}
+.xx_spxq_sp p{ font-size:0.16rem; line-height:0.22rem;}
+.xx_spxq_sp p.spm_xx{ height:0.44rem; overflow:hidden;}
+.xx_spxq_sp p.sds_xx{ font-size:0.14rem; color:#999999}
+.xx_spxq_sp p.sds_xx span{ color:#f74a4a}
+.xx_spxq_sp p.liangp_xx{ color:#ff6100; margin-top:10%; font-size:0.14rem}
+.xx_spxq_sp p.liangp_xx span{ font-size:0.2rem; font-weight:bold}
+.xx_spxq_sp p.yuanjia_xx{ font-size:0.14rem; color:#999; text-decoration:line-through}
+
+.xxping_ren{ width:90%; height:auto; padding:0.15rem 5%; overflow:hidden; border-top:0.15rem solid #f4f4f4}
+.xx_tou{ margin-top:0.1rem; text-align:center; margin-left:-4%}
+.xx_tou div{ display:inline-block; width:18%; border-radius:9%; position:relative; margin-left:4%}
+.xx_tz{ position:absolute; top:0; font-size:0.12rem; line-height:0.2rem; right:-10px; display:block; height:0.2rem; background-color:#f37121; color:#fff; padding:0 0.06rem; border-radius:0.1rem;}
+.xx_tou div img{ width:100%;}
+.xx_gong{ text-align:center; font-size:0.16rem; margin:0.1rem;}
+.xx_gong span{ color:#f74a4a}
+.xx_xiao{ width:70%; margin:auto; position:relative; height:0.4rem; margin-top:0.2rem }
+.xx_xiao .xx_xian1{ height:0.05rem; width:100%; background-color:#cccccc}
+.xx_xiao .xx_xian2{ height:0.05rem; width:100%; background-color:#ff6100; position:absolute; top:0; left:0;}
+.xx_lian1{ position:absolute; top:-9px; left:-2px; width:20px; z-index:2}
+.xx_lian1 img{ width:100%;}
+.xx_lian2{ position:absolute; top:-9px; left:45%; width:20px; z-index:2}
+.xx_lian2 img{ width:100%;}
+.xx_lian3{ position:absolute; top:-9px; right:18px; width:20px; z-index:2}
+.xx_lian3 img{ width:100%;}
+.xx_lian4{ position:absolute; top:-9px; right:-2px; width:20px; z-index:2}
+.xx_lian4 img{ width:100%;}
+.xx_hy1{ font-size:0.13rem; color:#f37121; position:absolute; left:-5%; top:0.2rem}
+.xx_hy2{ font-size:0.13rem; color:#f37121; position:absolute; left:34%; top:0.2rem}
+.xx_hy3{ font-size:0.13rem; color:#f37121; position:absolute; right:-7%; top:0.2rem}
+.xiaojiao_xx{ text-align:center; margin-top:0.1rem;}
+.xiaojiao_xx img{ width:25px; margin:auto;}
+.xx_ok{ width:95%; font-size:0.16rem; height:0.4rem; background-color:#f37121; color:#fff; text-align:center; line-height:0.4rem; border-radius:0.2rem; display:block; margin:auto; margin-top:0.1rem;}
+
+.xx_shengyu{ text-align:center; color:#222; line-height:0.2rem; margin-top:0.2rem; font-size:0.16rem}
+.xx_shengyu span{  font-size:0.13rem; border-radius:3px; padding:0.02rem 0.05rem; color:#fff; background-color:#222222;}
+.xx_shengyu span:last-child{ background-color:#ff551a;}
+.xx_shengyu span:nth-of-type(1){ margin-left:0.1rem;}
+
+.hcyb_xx{ text-align:center; margin-top:0.1rem; font-size:0.16rem;}
+.xx_gong1{ font-size:0.13rem; color:#666666; text-align:center; margin-bottom:0.3rem; margin-top:0.1rem}
+.xx_gong1 span{ color:#ff551a}
+
+.xx_xdsj{ height:0.45rem; font-size:0.16rem; overflow:hidden; line-height:0.45rem; margin-left:3%; border-bottom:1px solid #e5e5e5;}
+body .xx_xdsj:nth-of-type(1){ margin-top:0.2rem}
+body .xx_xdsj:nth-of-type(2){ border-bottom:0.15rem solid #f5f5f5; margin-left:0; padding-left:3%}
+.xx_xdsj span{ float:left; font-size:0.15rem; color:#333;}
+.xx_xdsj span:nth-of-type(2){ float:right; margin-right:3%; color:#666666}
+.xx_xdsj span.xx_hhhj{ color:#ff551a;float:right; margin-right:3%; }
+.xx_xdsj span.xx_hhhj span{ clear:both;color:#ff551a; float:right}
+.xx_wxts{ font-size:0.15rem; text-align:center; margin-top:0.05rem;}
+body .xx_wxts:nth-of-type(2){ margin-bottom:0.2rem;}
+.xx_ptcg{ padding:0.1rem; text-align:center; font-size:0.16rem; }
+
+
+.xx_tou .cg_tx_xx .xx_tz{ right:-6px; top:0.15rem;}
+.sy_xxpt{ text-align:center; font-size:0.15rem; color:#222;margin-top:0.1rem}
+.sy_xxpt span{ background-color:#222; color:#fff; padding:0.01rem 0.03rem; border-radius:3px; margin:0 0.05rem}
+.hcyi_xx{text-align:center;margin-top:0.1rem; font-size:0.15rem; color:#222;}
+.hcyi_xx span{ color:#f74a4a; margin-top:0.1rem}
+.fenxiang_xx{ text-align:center; margin-top:0.2rem; margin-left:-0.4rem}
+.fenxiang_xx span{ display:inline-block; width:20%; margin-left:0.2rem;}
+.ewma_xx{ width:50%; display:none; padding:2%; border:1px solid #efefef;margin:auto; border-radius:10px;margin-top:30%; }
+.ewma_xx img{ width:100%; margin:auto; }
+.shyq_xx{ position:absolute; left:0; bottom:10%; width:100%; text-align:center; font-size:0.15rem; color:#999999}
+.wxfx_xx{ width:100%; display:none;height:100%; position:absolute; top:0; left:0; background-color:rgba(0,0,0,0.7);}
+.wxfx_xx img{ width:100%;}
+
+.xx_nav{ height:0.45rem; width:100%; position:fixed; left:0; bottom:0;}
+.xx_nav span{ display:block; font-size:0.16rem; float:left; width:50%; line-height:0.45rem; text-align:center; background-color:#fff; color:#222;}
+.xx_nav span:nth-of-type(2){ background-color:#f37121; color:#fff}
+
+.ping_price i{font-size:0.12rem}
+
+@media screen and (max-width: 375px) {
+.ping_content .ping_price{font-size: 0.18rem;margin-top: 0.1rem;font-weight:600;color:#ff7a34;}
+.ping_item .ping_img img{border-radius:7px;height: 1.33rem;}
+}
+@media screen and (max-width: 320px) {
+.ping_content .ping_price{font-size: 0.18rem;margin-top: 0.01rem;font-weight:600;color:#ff7a34;}
+.ping_item .ping_img{width:44%; height:1.25rem;float:left;border-radius:5px;}
+.ping_content{float:left;width:54%;padding-left:2%;}
+.ping_start{width: 0.65rem;display:block;position:absolute;right: 0.1rem;bottom: 0.14rem;}
+.xx_spxq_sp p.liangp_xx{ color:#ff6100; margin-top:5%; font-size:0.14rem}
+.xx_spxq_sp p.liangp_xx span{ font-size:0.16rem; font-weight:bold}
+.xx_hy2{ font-size:0.13rem; color:#f37121; position:absolute; left:30%; top:0.2rem}
+.xx_ping{ line-height:40px; height:40px; overflow:hidden; font-size:0.18rem; color:#fff; padding:0.1rem 3%}
+.xxping_ren{ width:90%; height:auto; padding:0.1rem 5%; overflow:hidden; border-top:0.15rem solid #f4f4f4}
+.xx_tou{ margin-top:0.1rem; text-align:center; margin-left:-4%}
+.ping_item .ping_img img{border-radius:7px;height: 1.23rem;}
+}
+
+
+
+
+.ping_price_a{width:100%;height: 4rem;background:url(../img/pingtuan/ping_xq_02.jpg) no-repeat;background-size:100% 100%;}
+.ping_price_1{width: 70px;height: 2rem;float:left;margin-left:3%;margin-top: 1.05rem;border:1px solid #fff;color:#fff;font-size: 1.3rem;border-radius:6px;line-height: 2.2rem;overflow:  hidden;}
+.ping_price_1 span{width:30px;height: 2rem;float:left;background-color:#fff;color:#ff6228;line-height: 2.2rem;text-align:center;font-size: 1.3rem;margin-right:5px;}
+.ping_price_2{ float:right; margin-right:3%; margin-top:0.45rem; width:150px;}
+.ping_price_2 p{line-height: 1.5rem;font-size: 1.2rem;color:#fff;text-align:center;}
+.ping_price_2 .ping_djs{font-size: 1.2rem;margin-top:0.15rem;}
+.ping_price_2 .ping_djs span{ display:inline-block; margin:0 0.4rem;}
+.ping_price_2 .ping_djs .haomiao{ width:30px; border-radius:4px; background-color:#4e311d; text-align:center;}
+.ping_price_jg{height:auto; overflow:hidden; padding:0.7rem 3%;}
+.ping_price_jg .ping_price_jg1 div{ float:left; line-height:2.5rem}
+.ping_price_jg .ping_price_jg1 .ping_gojia{ width:45px; height:1.5rem; font-size:1.2rem; text-align:center; line-height:1.5rem; background-color:#ff5050; color:#fff; margin-top:0.5rem; margin-left:1rem;}
+.ping_price_jg .ping_price_jg1 .ping_yjia{ margin-left:1.5rem; font-size:1.2rem; color:#ccc; text-decoration:line-through}
+.ping_xjia span{color:#ff6100;font-size: 2.2rem;}
+.ping_xjia span:first-child{ font-size:1.4rem;}
+.ping_price_mz{ clear:both; font-size:1.6rem; line-height:2rem;height:auto; max-height:4rem;overflow:hidden;}
+.ping_kaituan{ margin-bottom:0.8rem; height:auto; background-color:#fff; overflow:hidden; clear:both}
+.ping_kaituan .ping_kaituan_item{ margin-left:3%; height:40px; padding:1rem 0; padding-right:3%; border-bottom:1px solid #f4f4f4}
+.ping_kaituan .ping_kaituan_item div{ float:left;}
+.ping_kaituan .ping_kaituan_item .ping_kaituan_tx{ width:40px;height:40px;}
+.ping_kaituan .ping_kaituan_item .ping_kaituan_tx img{ width:100%; border-radius:50%;}
+.ping_kaituan .ping_kaituan_item .ping_kaituan_tell{height:40px;margin-left:3%;line-height:40px;font-size: 1.2rem;width: 32%;overflow:hidden;}
+.ping_kaituan .ping_kaituan_item .ping_kaituan_go{width: 17%;float:right;margin-top: 0.4rem;}
+.ping_kaituan_go img{ width:100%;}
+.ping_kaituan_djs{width: 34%;}
+.ping_kaituan_djs p{text-align:right;line-height:20px;font-size: 1.2rem;}
+.ping_kaituan_djs p .ping_red{ color:#f74a4a}
+.ping_kaituan_djs p:last-child{ color:#999}
+
+.ping_guize{ height:auto; overflow:hidden; margin-bottom:0.8rem; background-color:#fff; padding:1rem 3%}
+.ping_guize_t span{ float:right; line-height:2.5rem; color:#999999; font-size:1.4rem}
+.ping_guize_t span:first-child{ float:left; font-size:1.6rem; color:#333;}
+.ping_guize_img img{ width:100%; margin-top:0.5rem}
+.ping_bg{ height:100%; display:none;width:100%; background-color:rgba(0,0,0,0.8); position:fixed; top:0; left:0; z-index:9998;}
+.ping_gz_tc{ width:85%;display:none; border-radius:10px; padding:1rem 2.5%; height:auto; background:#fff; position:fixed; top:14%; z-index:9999;left:5%;}
+.ping_gztc_t{line-height:2.5rem;font-size: 1.8rem;text-align:center;padding:1rem 0;padding-bottom:0rem;}
+
+.guize_nr{ height:420px; overflow:auto;}
+.guize_nr h1{font-size: 1.6rem;margin:0.7rem 0;color:#222;}
+.guize_nr p{font-size: 1.4rem;text-align: justify;line-height:2rem;margin-top:0.5rem;color:#444;padding-left:3rem;}
+.gb_ping_gz_tc{width:30px;height:30px;position:absolute;top: -69px;right: 5px;}
+.gb_ping_gz_tc img{ width:100%; }
+.pin_bottom{position: fixed;left: 0; bottom:0; display:block;  width: 100%; padding-left: 22%; height:4.8rem; z-index: 998; background: #fff; box-sizing: border-box; -webkit-box-sizing: border-box;  border-top: 1px solid #f3f3f3; overflow: hidden }
+.pin_bottom .gr{display: block; width: 2.3rem;height: 2rem;background: url(../img/wza_img/an_heart.png) no-repeat;background-size: 100%;}
+.pin_bottom .btn_left{
+position: absolute;
+top: 0;
+left: 0;
+width:22%;
+height: 100%;
+}
+.pin_bottom .btn_left a{
+width: 100%;
+height: auto;
+background: #FFF;
+margin:1rem auto;
+padding: .5rem 0;
+}
+.pin_bottom .btn_left a span{
+margin:0 auto;
+}
+.pin_bottom .btn_left .gr span{
+display: block;
+width: 2.3rem;
+height: 2rem;
+background: url(../img/wza_img/an_heart.png) no-repeat;
+background-size: 100%;
+}
+.pin_bottom .btn_left .gr.curr span{
+background: url(../img/wza_img/an_heart2.png) no-repeat;
+background-size: 100%;
+}
+.ping_ddbuy{ width:40%; background-color:#f4e8dd; float:left;}
+.ping_ddbuy p{text-align:center;padding:0.6rem 0;color:#ff6100;font-size: 1.5rem;line-height:1.8rem;}
+.ping_buy{ width:60%; background:url(../img/pingtuan/xqbut_03.jpg) no-repeat; background-size:100% 100%;font-size:1.6rem;float:left;}
+.ping_buy p{text-align:center;padding:0.6rem 0;color:#fff;font-size: 1.5rem;line-height:1.8rem;}
+.ping_mgl{ line-height:4.8rem; width:100%; font-size:1.8rem;  text-align:center; background-color:#999999; color:#fff;}
+
+.ping_ct_tc{ position:fixed; display:none; top:30%; width:74%; padding:2rem 3%; left:10%; background-color:#fff; border-radius:10px; z-index:9999;}
+.ping_ct_tc p{ text-align:center; line-height:2.5rem; font-size:1.4rem;}
+.ping_ct_tc p .ping_ct_tc_h{ color:#f74a4a}
+.ping_ct_tc .xyd_ping{ font-size:2rem;}
+.ping_ct_tc .tuan_tx{ margin-top:1rem; margin-left:-4%}
+.ping_ct_tc .tuan_tx span{ display:inline-block; position:relative; width:18%; margin-left:4%}
+.ping_ct_tc .tuan_tx span img{ width:100%; border-radius:50%;}
+.ping_ct_tc .tuan_tx span .tz_m{ position:absolute; background-color:#f37121; color:#fff; line-height:1.6rem; font-size:1.2rem; text-align:center; border-radius:0.8rem; top:1px; right:-10px; width:3rem; height:1.6rem;}
+.ping_ct_tc_b{ width:100%; text-align:center; }
+.ping_ct_tc_b img{ width:85%; margin:auto; margin-top:0.5rem}
+.gb_ping_ct_tc{ position:absolute; display:block; width:30px; height:30px; top:-10px; right:-10px}
+.gb_ping_ct_tc img{ width:100%;}
+
+.mrbp_ping{ height:0.45rem; text-align:center; line-height:0.45rem; font-size:0.16rem}
+.mrbp_ping a{ color:#222; font-weight:bold}
+.mrbp_ping span{ width:0.2rem; padding:0 0.05rem; display:inline-block;}
+.mrbp_ping span img{ vertical-align:middle;width:19px; height:7px;}
+	
+/*²ÂÄãÏ²»¶*/
+.new_cnxh_zt{ padding-bottom:0.5rem}
+.new_cnxh_div{ height:auto; overflow:hidden;}
+.new_cnxg_item{ width:47.6%; position:relative; margin-top:0.1rem; float:left;background-color:#fff; border-radius:5px; height:auto; overflow:hidden; margin-left:1.6%}
+.new_cnxh_m{ font-size:0.15rem;vertical-align:middle; margin:0.06rem 0; height:0.4rem; line-height:0.2rem; overflow:hidden;}
+.new_cnxh_j{ font-size:0.14rem; font-weight:bold; color:#ff6100;}
+.new_cnxh_j span{ font-size:0.2rem}
+.new_cnxh_x{ font-size:0.14rem; color:#999999; margin-bottom:0.1rem}
+.new_cnxg_item p{ padding:0 5%}
+.new_cnxg_item p:first-child{ padding:0}
+.cnxh_ping{ height:0.45rem; text-align:center; line-height:0.45rem; font-size:0.16rem}
+.cnxh_ping span{ width:0.35rem; padding:0 0.05rem; display:inline-block;}
+.cnxh_ping span img{ vertical-align:middle;}
+.new_cnxh_m span{ width:0.28rem; display:inline-block; margin-right:0.01rem}
+.new_cnxh_m span img{ vertical-align:middle}
+.new_cnxg_item .d_add_ys{ width:0.3rem; height:0.3rem; position:absolute; top:0; left:0;}
+
+@media screen and (max-width: 320px) {
+.ping_kaituan .ping_kaituan_item .ping_kaituan_tell{ height:40px; margin-left:3%; line-height:40px; font-size:1.2rem; width:30%; overflow:hidden}
+.ping_kaituan .ping_kaituan_item .ping_kaituan_go{ width:18%; float:right;margin-top: 2%;}
+.guize_nr{ height:345px; overflow:auto;}
+.ping_gztc_t{ line-height:1.8rem; font-size:1.8rem; text-align:center; padding:1rem 0; padding-bottom:0rem}
+.guize_nr h1{ font-size:1.6rem; margin:0.7rem 0; color:#222}
+.guize_nr p{ font-size:1.4rem;text-align: justify; line-height:1.6rem; margin-top:0.5rem; color:#444; padding-left:2.5rem}
+.ping_kaituan_djs p{ text-align:right; line-height:20px; font-size:1.2rem}
+.ping_ct_tc .xyd_ping{ font-size:1.6rem;}
+}

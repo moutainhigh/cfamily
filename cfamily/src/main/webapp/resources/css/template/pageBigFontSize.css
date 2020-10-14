@@ -1,0 +1,109 @@
+
+        
+    .ping_content .ping_name {
+
+        font-size: 0.16rem;
+  
+    }
+    
+  .ping_content .ping_ren span {
+            
+            font-size: 0.14rem;
+       }
+
+
+  
+
+ 
+
+    
+ 
+
+
+
+    .ping_item .ping_img {
+        width: 49%;
+    }
+
+
+.ping_content {
+    width: 49%;
+}
+
+.ping_item .ping_img img {
+   height: 1.68rem;
+}
+
+    .ping_content .ping_name {
+
+        font-size: 0.18rem;
+  
+    }
+    
+ .ping_content .ping_info {
+      
+        font-size: 0.14rem;
+   
+    }
+    .ping_content .ping_ren span{
+    	 font-size: 0.16rem;
+    }
+    
+    .ping_content .ping_price{
+    	font-size: 0.28rem;
+    }
+    
+.ping_start {
+	clear: both;
+    width: 0.95rem;
+    display:block;
+    height: 20%;
+    float: left;
+    margin-top: 0.05rem;
+}
+
+.jdt-562 .jdt-d-562 {
+	width: 70%;
+
+}
+
+.bai-562 {
+	font-size: 16px;
+
+}
+.ping_price i{
+	font-size: 16px;
+}
+
+.ping_content .ping_price_x{
+	font-size: 16px;
+}
+.pin562-xg-d{
+	margin-right: 15%;
+}
+
+
+
+@media screen and (max-width: 320px) {
+.wde_dd81 ul li p {
+font-size:0.14rem;
+}
+.wde_dd8 ul li p{font-size:0.14rem;}	
+ .order-service a {
+      font-size:0.14rem;
+    }
+    
+    .ping_content .ping_price{
+    	font-size: 0.22rem;
+    }
+       .ping_content .ping_name {
+
+        font-size: 0.16rem;
+  
+    }
+
+.ping_item .ping_img img {
+   max-height: 1.35rem;
+}
+
+}

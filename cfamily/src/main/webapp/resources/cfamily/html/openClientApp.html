@@ -1,0 +1,64 @@
+<html>
+
+<head>
+
+<meta name="apple-itunes-app" content="app-id=id641952456, affiliate-data=myAffiliateData, app-argument=http://download.qhn.srnpr.com/">
+
+
+</head>
+<body>
+
+
+<div style=font-size:70px;">
+
+
+</div>
+
+
+<script>
+
+(function() {
+var openUrl = window.location.search;
+try{
+openUrl = openUrl.substring(1,openUrl.length);
+openUrl = openUrl.substring(7);
+}catch(e){
+
+}
+var isiOS = navigator.userAgent.match('iPad')
+|| navigator.userAgent.match('iPhone')
+|| navigator.userAgent.match('iPod'), isAndroid = navigator.userAgent
+.match('Android'),isDesktop = !isiOS&&!isAndroid;
+if (isiOS) {
+setTimeout(function () { window.location = "itms-apps://itunes.apple.com/app/hui-jia-you.-wei-gong-she/id641952456?mt=8"; },25);
+window.location = "huijiayou:";
+
+//setTimeout(function () { window.location = "http://download.qhn.srnpr.com/?url="+openUrl; },10000);
+
+}else if(isAndroid){
+
+//setTimeout(function () { window.location = "http://download.qhn.srnpr.com/android.apk"; },25);
+//window.location = "huijiayou:";
+window.location = "huijiayou://huijiayou.com?"+openUrl+"#Intent;scheme=http;package=com.jiayou.qianheshengyun.app;end";
+
+
+}else{
+
+
+//window.location.href = openUrl;
+//alert('loading');
+}
+})(); 
+
+
+setTimeout(function () { window.location = "http://www.ichsy.cn/apps/"; },3000);
+
+</script>
+
+
+</body>
+</html>
+
+
+
+

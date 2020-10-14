@@ -1,0 +1,151 @@
+﻿    /*5.2.4 自营标签*/
+   .proClassifyTag{
+        width: 16%;
+        margin-right: 10px;
+        margin-top: 0.03rem;
+    }
+	
+	
+	.ch-search .ch-list li a .proClassifyTag{
+        width: 16%;
+        margin-right: 5px;
+		display:inline-block;
+		margin-top:0;
+    }
+    /*5.2.4 商品详情页 标题 自营标签*/
+    .d_gd_name .proClassifyTag{
+        width: 10%;
+        margin-right: 10px;
+        margin-top: 0.35rem;
+    }
+    /*5.2.4 商品详情页--推荐商品 自营标签*/
+    .picScroll .bd li .proClassifyTag_tj{
+        width: 25%;
+        display: inline-block;
+        margin-right: 3px;
+        margin-top: -0.1rem;
+		max-height:15px;
+		vertical-align: middle;
+    }
+
+    /*5.2.4 搜索结果页页 自营标签*/
+    .ch-search .ch-small li .proClassifyTag{
+        position: inherit;
+    width: 13%;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+    /*5.2.4 购物车页 自营标签*/
+    .ch-box ul li  .proClassifyTag_cart, .invalid ul li .proClassifyTag_cart{
+        position: inherit;
+        width: 15%;
+        margin-right: 10px;
+        margin-top: 0rem;
+        height: .15rem;
+    }
+    /*5.2.4 收藏页 自营标签*/
+    .proClassifyTag_sc{
+        width: 30px;
+        margin-right: 5px;
+		display:inline-block;
+		margin-top:2px;       
+}
+    /*5.2.4 浏览历史页 自营标签*/
+    .proClassifyTag_history {
+        width: 12%;
+        margin-right: 3px;
+		vertical-align: middle;
+    }
+    /*5.2.4 扫码购列表 自营标签*/
+.ch-box ul li .proClassifyTag_smg, .invalid ul li .proClassifyTag_smg {
+    position: inherit;
+        width: 16%;
+        margin-right: 3px;
+        margin-top: 0.2rem;
+}
+/*5.2.4 扫码购列表的猜你喜欢 自营标签*/
+.cols-two li .proClassifyTag_smg_maybelove {
+        width: 23%;
+    /* margin-right: 2px; */
+    margin-top: 0.4rem;
+    display: inline-block;
+    margin-left: 2px;
+}
+ /*5.2.4 订单列表表 自营标签*/
+.order-shop-info .proClassifyTag_mylisttksh {
+    position: inherit;
+        width: 14%;
+        margin-right: 3px;
+        margin-top: 0rem;
+		float:left;
+		margin-top:1px;
+}
+
+ /*5.2.4 TV直播列表 自营标签*/
+.txtd .proClassifyTag_tvlive {
+    width: 15%;
+    display: inline-block;
+    margin-top: 0.3rem;
+    margin-right: 3px;
+}
+
+
+ /*5.2.4 签到--推荐商品 自营标签*/
+.goods-item-tit-02 .proClassifyTag_qiandao_matbelove {
+    width: 15%;
+    display: inline-block;
+    margin-top: 0.03rem;
+    margin-right: 2px;
+}
+
+ /*5.2.4 订单确认页 自营标签*/
+.imgr .pt .proClassifyTag_OrderConfirm {
+        width: 10%;
+    display:inline-block;
+    margin-top: 0.04rem;
+    margin-right: 5px;
+    height: 10%;
+	float:none;
+	vertical-align: middle;
+}
+/*5.2.4 满减列表页 自营标签*/
+.goods-item-tit  .proClassifyTag_FullCut {
+    width: 13%;
+    /* display: inline-block; */
+	
+    margin-top: 0.02rem;
+    margin-right: 2px;
+}
+
+/*5.2.4 秒杀列表页 自营标签*/
+.goods-item-tit  .proClassifyTag_Seckill {
+    width: 13%;
+    /* display: inline-block; */
+    margin-top: 0.02rem;
+    margin-right: 2px;
+}
+
+ /*5.2.4 订单列表 自营标签*/
+.order-info .proClassifyTag_myorderlist {
+    position: inherit;
+    display: inline-block;
+        width: 15%;
+        margin-right: 3px;
+        margin-top: 0rem;
+}
+/*5.2.4 支付成功 自营标签*/
+.txtd .proClassifyTag_OrderSuccess {
+    width: 15%;
+    display: inline-block;
+    /* margin-top: 0.04rem; */
+    margin-right: 5px;
+    float: none;
+    vertical-align: middle;
+}
+
+.lidw .txtd .proClassifyTag_MyOrderListQrsh{
+       width: 16%;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}

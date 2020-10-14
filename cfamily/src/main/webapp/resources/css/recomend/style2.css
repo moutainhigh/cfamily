@@ -1,0 +1,108 @@
+html{font-size: 100px;}
+body{font: 0.14rem/0.22rem "microsoft yahei";background:#ffcf61;}
+html,body{min-width:320px;max-width:640px;margin:0 auto;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,pre,form,fieldset,input,textarea,blockquote,p,header,footer,nav,section,article,aside,video{padding:0px; margin:0px;}   
+table,td,tr,th{font-size:12px;}
+table{margin:0px auto;}
+img{vertical-align:top; border:0px;}
+ol,ul{list-style:none;} 
+li{list-style-type:none;}  
+h1,h2,h3,h4,h5,h6{font-weight:normal;}   
+address,caption,cite,code,dfn,em,i,b{font-weight:normal; font-style:normal;}   
+a{color:#0077dd; text-decoration:none; outline:none;}
+a:hover{text-decoration:none;}
+img{width: 100%; height: auto; vertical-align: top;}
+input,textarea,select,button{outline: none; resize: none; border: 0; font-family: "microsoft yahei";-webkit-appearance: none;}
+.tl{text-align:left;}.tr{text-align:right;}.tc{text-align:center;}.tb{font-weight:bold;}
+.clearfix:after{content:''; clear:both; display:block; line-height:.18rem; font-size:0px; height:0px; visibility:hidden;}
+.clearfix{*zoom:1;}
+.clear{clear:both; display:block; font-size:0px; height:0px; visibility:hidden;}
+.white{background:#fff;}
+.red{background:#d81a1a;}
+.huang{background:#f8cb90;}
+
+/*=棰嗙孩鍖�*/
+.bonus{background:url(../../../resources/images/recomend/bg.jpg) no-repeat;background-size:100%;height:7.56rem;overflow:hidden;position:relative;}
+.bonus .portrait,.old .portrait,.news .portrait,.not .portrait{height:1.2rem;padding-top:.46rem;text-align:center;overflow:hidden;margin-bottom:.45rem;}
+.bonus .portrait i,.old .portrait i,.news .portrait i,.not .portrait i{display:block;margin:0 auto;width:.78rem;height:.78rem;box-sizing:border-box;border:3px solid #fff;border-radius:.4rem;overflow:hidden;}
+.bonus .portrait i img,.old .portrait i img,.news .portrait i img,.not .portrait i img{border-radius:.4rem;}
+.bonus .portrait p,.old .portrait p,.news .portrait p{line-height:.42rem;height:.42rem;color:#7e4115;font-size:.2rem;}
+.bonus .money{overflow:hidden;height:1.86rem;text-align:center;}
+.bonus .money h2{line-height:.75rem;height:.75rem;font-size:.57rem;color:#ef3b48;}
+.bonus .money h2 i{font-size:.27rem;position:relative;top:-.03rem;padding:0 .03rem}
+.bonus .money p{line-height:.3rem;height:.3rem;font-size:.18rem;color:#7e4115;}
+.bonus ul{width:3.45rem;box-sizing:border-box;background:#fff;border:1px solid #b1b1b1;margin:0 auto;border-radius:.05rem;overflow:hidden;padding:0 .13rem;}
+.bonus ul li{position:relative;overflow:hidden;height:.57rem;box-sizing:border-box;padding:.08rem 0;border-bottom:1px solid #e0e0e0;}
+.bonus ul li input{height:.41rem;font-size:.18rem;color:#333;line-height:.41rem;padding:0 .05rem;box-sizing:border-box;width:100%;}
+.bonus ul li button{width:1.46rem;height:.41rem;background:#f2a240;color:#fff;font-size:.16rem;text-align:center;position:absolute;right:0;top:.04rem;border-radius:.03rem;}
+.bonus ul li button.curr{background:#e2e2e2;color:#999;}
+.bonus .tips{display:none;height:.38rem;line-height:.38rem;text-align:center;width:100%;font-size:.15rem;color:#e1b822;position:absolute;left:0;top:5.19rem;}
+.btn{margin-top:.1rem;height:.6rem;}
+.btn a{display:block;height:.6rem;text-align:center;width:3.45rem;margin:0 auto;background:#f2a240;font-size:.22rem;color:#fff;line-height:.6rem;border-radius:.05rem;}
+/* fq */
+.bonus ul li .verfiyImg{
+	position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 30%;
+    height: .40rem;
+    line-height: .40rem;
+    margin-top: 0.1rem;
+}
+
+@-webkit-keyframes tips {
+	0%   {filter:alpha(opacity=100);-moz-opacity:1;opacity:1;}
+	50%  {filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;}
+	100% {filter:alpha(opacity=0);-moz-opacity:0;opacity:0;}
+}
+
+.bonus .tips.curr{display:block;-webkit-animation:tips linear 5s forwards;}
+
+
+/*=鑰佺敤鎴烽鍙栧け璐�*/
+.old,.news,.not{background:url(../../../resources/images/recomend/old_bg.jpg) no-repeat;background-size:100%;height:7.56rem;overflow:hidden;position:relative;}
+.old .portrait{padding-top:.98rem;}
+.old .portrait p{font-size:.22rem;}
+.old .money{height:1.98rem;text-align:center;box-sizing:border-box;padding:.35rem 0 0 0;line-height:.42rem;color:#9d7359;}
+.old .money p{font-size:.18rem;}
+.old .money p b{color:#c71b1a;font-size:.27rem;}
+.old .money p:first-child{font-size:.21rem;}
+
+/*=鏂扮敤鎴烽鍙栨垚鍔�*/ 
+.news{background:url(../../../resources/images/recomend/news_bg.jpg) no-repeat;background-size:100%;}
+.news .portrait{height:2.14rem;margin:0;}
+.news .portrait p{display:block;font-size:.32rem;color:#7e4115;line-height:.5rem;}
+.news .portrait p:last-child{font-size:.26rem;}
+.news .portrait font{display:block;font-size:.22rem;line-height:.3rem;color:#7e4115;margin-top:.2rem;}
+.news .portrait font b,.news .portrait p b{color:#c61b1a;}
+
+.news .portrait span{line-height:.3rem;color:#7e4115;font-size:.18rem;}
+.news .money{width:3.6rem;height:1.12rem;box-sizing:border-box;background:url(../../../resources/images/recomend/money_bg.png) no-repeat;background-size:100%;margin:0 auto;padding:.25rem 0 .2rem .2rem;overflow:hidden;}
+.news .money h2{margin-right:.15rem;width:1.5rem;font-size:.5rem;color:#fff;float:left;height:.6rem;overflow:hidden;float:left;text-align:center;line-height:.6rem;padding-top:.05rem;}
+.news .money h2 i{font-size:.27rem;position:relative;top:-.25rem;}
+.news .money p{width:1.7rem;float:left;font-size:.13rem;color:#fff;line-height:.15rem;}
+.news .money p b{font-size:.23rem;color:#fff;display:block;line-height:.3rem;}
+.news .money span{display:block;line-height:.18rem;}
+.news .account{line-height:.26rem;font-size:.17rem;color:#605543;text-align:center;margin:.35rem 0 .2rem 0;}
+.news .account a{color:#605543;}
+.news .btn a{width:2.46rem;}
+
+/*=棰嗗厜浜�*/
+.not{background:url(../../../resources/images/recomend/not_bg.jpg) no-repeat;background-size:100%;}
+.not .portrait{padding-top:.76rem;}
+.not .money{padding-top:.7rem;text-align:center;color:#7e4115;font-size:.23rem;height:1.95rem;}
+.not .account{text-align:center;}
+.not .account p{font-size:.18rem;line-height:.36rem;color:#9d7359;}
+.not .account p b{color:#c71b1a;font-size:.27rem;}
+.not .account p:first-child{font-size:.21rem;}
+.not .btn{margin-top:.21rem;}
+
+/*邀请好友老用户样式添加*/
+.none{ display:none}
+.bc{ background-color:#fec649;}
+.bg_fx{ width:100%; height:100%; background-color:rgba(0,0,0,0.8); position:fixed; top:0; left:0;}
+.lyh{ width:85%; height:auto; position:fixed; top:10%; left:7.5%; background-color:#fef1de; border-radius:10px;}
+.lyh p{ text-align:center; line-height:0.5rem; font-size:0.25rem; color:#552415;}
+.lyh p span{ font-size:0.35rem; color:#ef4d18}
+.lyh p a{ display:inline-block; width:80%; height:0.6rem; line-height:0.6rem; border-radius:0.3rem; margin:10px 0; margin-bottom:30px; text-align:center; background-color:#f47121; color:#fff;}
+.guanbi_lyh{ position:absolute; bottom:-0.85rem; left:50%; margin-left:-0.3rem; display:block; width:0.6rem;}

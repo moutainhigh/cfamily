@@ -1,0 +1,101 @@
+.jdt-562 {
+	width: 100%;
+	height: .2rem;
+	margin-top: 0.05rem;
+	overflow: hidden;
+}
+
+.jdt-562 .jdt-d-562 {
+	width: 75%;
+	float: left;
+	position: relative;
+	height: 0.12rem;
+	background-color: #fafafa;
+	border-radius: 0.06rem;
+	border: 1px solid #e6e6e6;
+	margin-top: 3px;
+}
+
+.bai-562 {
+	float: right;
+	font-size: 13px;
+	color: #ff6100;
+	margin-left: 2%;
+}
+
+.jdt-562 .jdt-d-562 .jd-562 {
+	height: 0.12rem;
+	border-radius: 0.06rem;
+	background-color: #ff6100;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+        .ping_item .ping_img img {
+            border-radius: 7px;
+            height: 1.48rem;
+        }
+
+
+.pin562-xg{ font-size: 16px;}
+.pin562-xg-d{display: inline-block; float: left; margin-right: 10%;}
+
+
+.ping_list{ padding:0 3%; height:auto; overflow:hidden; padding-bottom:0.2rem}
+		.ping_item{margin-top: 0.15rem;height:auto;position:relative;overflow:hidden;padding: 0.1rem;background-color:#fff;border-radius:5px;}
+		.ping_item .ping_img{width:40%;float:left;border-radius:5px;}
+		.ping_content{float:left;width:58%;padding-left:2%;}
+		.ping_content .ping_name{color:#222222;font-size: 0.14rem;line-height: 0.2rem;max-height: 0.4rem;overflow:hidden;}
+		.ping_content .ping_name span{display:inline-block;width: 0.3rem;height: 0.18rem;background-color:#ff551a;color:#fff;font-size: 0.12rem;line-height: 0.18rem;text-align:center;border-radius:3px;margin-right: 0.03rem;vertical-align:top;}
+		.ping_content .ping_info{color:#999999;font-size: 0.12rem;line-height: 0.2rem;height: 0.2rem;overflow:hidden;}
+		.ping_content .ping_ren{height: 0.2rem;margin: 0.01rem 0;overflow:hidden;}
+		.ping_content .ping_ren span{padding: 0 0.1rem;height: 0.2rem;display:inline-block;text-align:center;line-height: 0.2rem;background-color:#fff1e8;color:#ff6100;font-size: 0.12rem;border-radius: 0.1rem;float:  left;}
+		.ping_content .ping_price{font-size: 0.18rem;margin-top: 0.1rem;font-weight:600;color:#ff7a34;}
+		.ping_content .ping_price span{font-size: 0.14rem;}
+		.ping_content .ping_price_x{font-size: 0.14rem;text-decoration:line-through;color:#999999;}
+		.ping_start {
+    width: 0.75rem;
+    display:inline-block;
+    height: 20%;
+    float: right;
+    margin-top: 0.15rem;
+}
+		.ping_item .ping_end{width:38%;position:absolute;top:0.1rem;left:0.1rem;}
+		.ping_item .ping_end img{ width:70%; margin:auto; margin-top:18%}
+
+
+@media screen and (max-width: 380px) {
+    .ping_content .ping_price {
+        font-size: 0.16rem;
+        margin-top: 0.1rem;
+        font-weight: 600;
+        color: #ff7a34;
+    }
+
+    .ping_item .ping_img img {
+        border-radius: 7px;
+          height: 1.33rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .ping_content .ping_price {
+        font-size: 0.14rem;
+        margin-top: 0.01rem;
+        font-weight: 600;
+        color: #ff7a34;
+    }
+    
+    .ping_item .ping_img img {
+        border-radius: 7px;
+        height: 1.35rem;
+    }
+    
+    .ping_start {
+    width: 0.65rem;
+    display:inline-block;
+    height: 20%;
+    float: right;
+    margin-top: 0.08rem;
+}
+}
