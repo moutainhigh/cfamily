@@ -113,11 +113,11 @@
   			<artifactId>productcenter</artifactId>
   			<version>1.0.0.1-SNAPSHOT</version>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.cmall</groupId>
   			<artifactId>gogpay</artifactId>
   			<version>1.0.0.1-SNAPSHOT</version>
-		</dependency>		
+		</dependency>	 -->	
 	</dependencies>
     <build>
         <plugins>
